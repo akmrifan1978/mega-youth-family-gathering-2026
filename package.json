@@ -1,0 +1,14 @@
+{
+  "name": "mega-youth-family-gathering-2026",
+  "private": true,
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.141.0"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy --config ./wrangler.jsonc",
+    "dev": "wrangler dev --config ./wrangler.jsonc"
+  }
+}
